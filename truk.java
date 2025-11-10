@@ -8,7 +8,7 @@ public class truk extends Kendaraan {
     }
 
     @Override
-    protected double hitungBiayaTambahan() {
+    public double hitungBiayaTambahan() {
         return this.muatanMaks * 50000;
     }
 
